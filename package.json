@@ -11,7 +11,7 @@
     "instagram-node-lib": "~0.1.1"
   },
   "engines": {
-    "node": "0.12.2",
+    "node": "0.10.24",
     "npm": "2.7.4"
   }
 }
