@@ -26,9 +26,23 @@ var clientID = 'e26a11d8d2c3468c840f279beb2ab564',
  */
 Instagram.set('client_id', clientID);
 Instagram.set('client_secret', clientSecret);
-Instagram.set('callback_url', 'http://insta.riganelli.org/callback');
-Instagram.set('redirect_uri', 'http://insta.riganelli.org');
+Instagram.set('callback_url', 'https://myinstafeed.heroku.com/callback');
+Instagram.set('redirect_uri', 'https://myinstafeed.heroku.com');
 Instagram.set('maxSockets', 10);
+
+/**
+ * Uses the library "instagram-node-lib" to Subscribe to the Instagram API Real Time
+ * with the tag "hashtag" lollapalooza
+ * @type {String}
+ */
+Instagram.subscriptions.subscribe({
+  object: 'tag',
+  object_id: 'eduardo_fine_art',
+  aspect: 'media',
+  callback_url: 'https://myinstafeed.heroku.com/callback',
+  type: 'subscription',
+  id: '#'
+});
 
 /**
  * Uses the library "instagram-node-lib" to Subscribe to the Instagram API Real Time
@@ -39,7 +53,7 @@ Instagram.subscriptions.subscribe({
   object: 'tag',
   object_id: 'chicago',
   aspect: 'media',
-  callback_url: 'http://insta.riganelli.org/callback',
+  callback_url: 'https://myinstafeed.heroku.com/callback',
   type: 'subscription',
   id: '#'
 });
@@ -49,11 +63,11 @@ Instagram.subscriptions.subscribe({
  * with the tag "hashtag" lollapalooza2013
  * @type {String}
  */
-/**Instagram.subscriptions.subscribe({
+Instagram.subscriptions.subscribe({
   object: 'tag',
   object_id: 'lollapalooza2015',
   aspect: 'media',
-  callback_url: 'http://insta.riganelli.org/callback',
+  callback_url: 'https://myinstafeed.heroku.com/callback',
   type: 'subscription',
   id: '#'
 });*/
@@ -63,11 +77,11 @@ Instagram.subscriptions.subscribe({
  * with the tag "hashtag" lolla2013
  * @type {String}
  */
-/**Instagram.subscriptions.subscribe({
+Instagram.subscriptions.subscribe({
   object: 'tag',
   object_id: 'lolla2013',
   aspect: 'media',
-  callback_url: 'http://insta.riganelli.org/callback',
+  callback_url: 'https://myinstafeed.heroku.com/callback',
   type: 'subscription',
   id: '#'
 });*/
