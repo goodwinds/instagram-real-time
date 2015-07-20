@@ -70,7 +70,7 @@ Instagram.subscriptions.subscribe({
   callback_url: 'https://myinstafeed.heroku.com/callback',
   type: 'subscription',
   id: '#'
-});*/
+});
 
 /**
  * Uses the library "instagram-node-lib" to Subscribe to the Instagram API Real Time
@@ -84,7 +84,7 @@ Instagram.subscriptions.subscribe({
   callback_url: 'https://myinstafeed.heroku.com/callback',
   type: 'subscription',
   id: '#'
-});*/
+});
 
 // if you want to unsubscribe to any hashtag you subscribe
 // just need to pass the ID Instagram send as response to you
