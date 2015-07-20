@@ -26,8 +26,8 @@ var clientID = 'e26a11d8d2c3468c840f279beb2ab564',
  */
 Instagram.set('client_id', clientID);
 Instagram.set('client_secret', clientSecret);
-Instagram.set('callback_url', 'https://myinstafeed.heroku.com/callback');
-Instagram.set('redirect_uri', 'https://myinstafeed.heroku.com');
+Instagram.set('callback_url', 'http://myinstafeed.heroku.com/callback');
+Instagram.set('redirect_uri', 'http://myinstafeed.heroku.com');
 Instagram.set('maxSockets', 10);
 
 /**
@@ -39,7 +39,7 @@ Instagram.subscriptions.subscribe({
   object: 'tag',
   object_id: 'eduardo_fine_art',
   aspect: 'media',
-  callback_url: 'https://myinstafeed.heroku.com/callback',
+  callback_url: 'http://myinstafeed.heroku.com/callback',
   type: 'subscription',
   id: '#'
 });
@@ -53,7 +53,7 @@ Instagram.subscriptions.subscribe({
   object: 'tag',
   object_id: 'chicago',
   aspect: 'media',
-  callback_url: 'https://myinstafeed.heroku.com/callback',
+  callback_url: 'http://myinstafeed.heroku.com/callback',
   type: 'subscription',
   id: '#'
 });
@@ -67,7 +67,7 @@ Instagram.subscriptions.subscribe({
   object: 'tag',
   object_id: 'lollapalooza2015',
   aspect: 'media',
-  callback_url: 'https://myinstafeed.heroku.com/callback',
+  callback_url: 'http://myinstafeed.heroku.com/callback',
   type: 'subscription',
   id: '#'
 });
@@ -81,7 +81,7 @@ Instagram.subscriptions.subscribe({
   object: 'tag',
   object_id: 'lolla2013',
   aspect: 'media',
-  callback_url: 'https://myinstafeed.heroku.com/callback',
+  callback_url: 'http://myinstafeed.heroku.com/callback',
   type: 'subscription',
   id: '#'
 });
