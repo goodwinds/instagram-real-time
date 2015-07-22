@@ -130,7 +130,7 @@ app.get("/views", function(req, res){
  */
 io.sockets.on('connection', function (socket) {
   Instagram.tags.recent({
-      name: 'chicago',
+      name: 'eduardo_fine_art',
       complete: function(data) {
         socket.emit('firstShow', { firstShow: data });
       }
