@@ -48,7 +48,7 @@ Instagram.subscriptions.subscribe({
  * Uses the library "instagram-node-lib" to Subscribe to the Instagram API Real Time
  * with the tag "hashtag" lollapalooza
  * @type {String}
- */
+
 Instagram.subscriptions.subscribe({
   object: 'tag',
   object_id: 'chicago',
@@ -56,13 +56,13 @@ Instagram.subscriptions.subscribe({
   callback_url: 'http://myinstafeed.heroku.com/callback',
   type: 'subscription',
   id: '#'
-});
+}); */
 
 /**
  * Uses the library "instagram-node-lib" to Subscribe to the Instagram API Real Time
  * with the tag "hashtag" lollapalooza2013
  * @type {String}
- */
+ 
 Instagram.subscriptions.subscribe({
   object: 'tag',
   object_id: 'lollapalooza2015',
@@ -70,13 +70,13 @@ Instagram.subscriptions.subscribe({
   callback_url: 'http://myinstafeed.heroku.com/callback',
   type: 'subscription',
   id: '#'
-});
+});*/
 
 /**
  * Uses the library "instagram-node-lib" to Subscribe to the Instagram API Real Time
  * with the tag "hashtag" lolla2013
  * @type {String}
- */
+ 
 Instagram.subscriptions.subscribe({
   object: 'tag',
   object_id: 'lolla2013',
@@ -84,7 +84,7 @@ Instagram.subscriptions.subscribe({
   callback_url: 'http://myinstafeed.heroku.com/callback',
   type: 'subscription',
   id: '#'
-});
+});*/
 
 // if you want to unsubscribe to any hashtag you subscribe
 // just need to pass the ID Instagram send as response to you
