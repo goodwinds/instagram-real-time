@@ -37,7 +37,7 @@ Instagram.set('maxSockets', 10);
  */
 Instagram.subscriptions.subscribe({
   object: 'tag',
-  object_id: 'rosana_party_launch',
+  object_id: 'eduardo_fine_art',
   aspect: 'media',
   callback_url: 'http://myinstafeed.herokuapp.com/callback',
   type: 'subscription',
@@ -130,7 +130,7 @@ app.get("/views", function(req, res){
  */
 io.sockets.on('connection', function (socket) {
   Instagram.tags.recent({
-      name: 'rosana_party_launch',
+      name: 'eduardo_fine_art',
       complete: function(data) {
         socket.emit('firstShow', { firstShow: data });
       }
