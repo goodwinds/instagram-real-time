@@ -37,7 +37,7 @@ Instagram.set('maxSockets', 10);
  */
 Instagram.subscriptions.subscribe({
   object: 'tag',
-  object_id: 'eduardo_fine_art',
+  object_id: 'rosana_party_launch',
   aspect: 'media',
   callback_url: 'http://myinstafeed.herokuapp.com/callback',
   type: 'subscription',
