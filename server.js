@@ -55,7 +55,7 @@ Instagram.subscriptions.subscribe({
    object: 'user' ,
    aspect: 'media' ,
    verify_token: accessToken,
-   callback_url: 'http://myinstafeed.herokuapp.com/callback',
+   callback_url: 'https://myinstafeed.herokuapp.com/callback',
    type: 'subscription',
    id: '#'
 });
