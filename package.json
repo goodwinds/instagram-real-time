@@ -6,7 +6,7 @@
   "dependencies": {
     "socket.io": "0.9.16",
     "express": "3.5.1",
-    "pug": "2.0.0",
+    "pug": "0.1.22",
     "request": "2.34.0",
     "instagram-node-lib": "~0.1.1"
   },
