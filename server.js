@@ -22,7 +22,7 @@ var pub = __dirname + '/public',
     clientSecret = '2e1236b23c43441eb696ba497cd06c3c';
 */
 var clientID = 'e26a11d8d2c3468c840f279beb2ab564',
-    accessToken= '1570173125',
+    accessToken= '1570173125.e26a11d.fb491684ace74f408407ad43da2a3e56',
     clientSecret = 'fb782789243447a88f22f81b9740fce5';
 /**
  * Set the configuration
