@@ -173,7 +173,7 @@ app.post('/callback', function(req, res) {
     data.forEach(function(tag) {
     //  var url = 'https://api.instagram.com/v1/tags/' + tag.object_id + '/media/recent?client_id='+clientID;
    //var url = 'https://api.instagram.com/v1/tags/' + tag.object_id + '/media/recent?access_token='+accessToken;
-     var url = 'https://api.instagram.com/v1/users/self/media/recent/?access_token='+accessToken;
+     var url = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=1570173125.e26a11d.fb491684ace74f408407ad43da2a3e56';
       sendMessage(url);
 
     });
