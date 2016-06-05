@@ -22,7 +22,7 @@ var pub = __dirname + '/public',
     clientSecret = '2e1236b23c43441eb696ba497cd06c3c';
 */
 var clientID = 'e26a11d8d2c3468c840f279beb2ab564',
-    clientSecret = '6d7cb8d636f7461e90d70869b65c83d7';
+    clientSecret = 'fb782789243447a88f22f81b9740fce5';
 /**
  * Set the configuration
  */
