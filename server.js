@@ -128,7 +128,10 @@ app.configure(function(){
     app.use(express.static(view));
     app.use(express.errorHandler());
 });
-
+// confirming subscription
+app.get('/subscribe', function(req, res){
+  res.send(req.query['hub.challenge']);
+});
 /**
  * Render your index/view "my choice was not use jade"
  */
