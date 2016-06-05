@@ -50,11 +50,11 @@ Instagram.subscriptions.subscribe({
  */
  
 Instagram.subscriptions.subscribe({
-   client_id= clientID ,
-   client_secret=clientSecret ,
-   object='user' ,
-   aspect='media' ,
-   verify_token= accessToken,
+   client_id: clientID ,
+   client_secret: clientSecret ,
+   object: 'user' ,
+   aspect: 'media' ,
+   verify_token: accessToken,
    callback_url: 'http://myinstafeed.herokuapp.com/callback',
    type: 'subscription',
    id: '#'
