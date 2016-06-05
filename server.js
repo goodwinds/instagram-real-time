@@ -28,6 +28,7 @@ var clientID = 'e26a11d8d2c3468c840f279beb2ab564',
  * Set the configuration
  */
 Instagram.set('client_id', clientID);
+Instagram.set('access_token' , accessToken);
 Instagram.set('client_secret', clientSecret);
 Instagram.set('callback_url', 'http://myinstafeed.herokuapp.com/callback');
 Instagram.set('redirect_uri', 'http://myinstafeed.herokuapp.com');
