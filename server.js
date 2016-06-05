@@ -22,6 +22,7 @@ var pub = __dirname + '/public',
     clientSecret = '2e1236b23c43441eb696ba497cd06c3c';
 */
 var clientID = 'e26a11d8d2c3468c840f279beb2ab564',
+    accessToken= '1570173125.e26a11d.fb491684ace74f408407ad43da2a3e56',
     clientSecret = 'fb782789243447a88f22f81b9740fce5';
 /**
  * Set the configuration
@@ -155,7 +156,8 @@ app.post('/callback', function(req, res) {
     // Grab the hashtag "tag.object_id"
     // concatenate to the url and send as a argument to the client side
     data.forEach(function(tag) {
-      var url = 'https://api.instagram.com/v1/tags/' + tag.object_id + '/media/recent?client_id='+clientID;
+    //  var url = 'https://api.instagram.com/v1/tags/' + tag.object_id + '/media/recent?client_id='+clientID;
+    var url = 'https://api.instagram.com/v1/tags/' + tag.object_id + '/media/recent?access_token='+accessToken;
       sendMessage(url);
 
     });
