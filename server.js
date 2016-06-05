@@ -38,7 +38,7 @@ Instagram.set('maxSockets', 10);
  * Uses the library "instagram-node-lib" to Subscribe to the Instagram API Real Time
  * with the tag "hashtag" lollapalooza
  * @type {String}
- */
+
 Instagram.subscriptions.subscribe({
   object: 'tag',
   object_id: 'eduardo_fine_art',
@@ -47,7 +47,18 @@ Instagram.subscriptions.subscribe({
   type: 'subscription',
   id: '#'
 });
-
+ */
+ 
+Instagram.subscriptions.subscribe({
+   client_id= clientID ,
+   client_secret=clientSecret ,
+   object='user' ,
+   aspect='media' ,
+   verify_token= accessToken,
+   callback_url: 'http://myinstafeed.herokuapp.com/callback',
+   type: 'subscription',
+   id: '#'
+});
 /**
  * Uses the library "instagram-node-lib" to Subscribe to the Instagram API Real Time
  * with the tag "hashtag" lollapalooza
